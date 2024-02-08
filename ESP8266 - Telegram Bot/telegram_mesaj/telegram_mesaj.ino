@@ -7,16 +7,16 @@
 #include <ArduinoJson.h> //https://github.com/bblanchon/ArduinoJson
 
 // Kablosuz Ağ Bilgilerinizi Girin
-const char* ssid = "TTNET_ZTE_T321"; //1- WiFi adını yaz 
-const char* password = "15E37jT321"; //2- Wifi şifreni yaz
+const char* ssid = "Null"; //1- WiFi adını yaz 
+const char* password = "Null"; //2- Wifi şifreni yaz
 
 
 // Telegram BOT için gereken token'ı girin
-#define BOTtoken "6944022316:AAFCW5R8kRmOMvdqxAfWPOzsqV3sQgqp5_4"  // BotFather'dan aldığınız TOKEN
+#define BOTtoken "Null"  // BotFather'dan aldığınız TOKEN
 
 // IDBOT üzerinden /getid mesajı ile aldığımız ID bilgimizi gireceğiz
 // Botun bizimle haberleşebilmesi için /start komutunu çalıştırmamız gerekli
-#define CHAT_ID "6152621727" //3- IDBOTtan alınan id yazılacak!!!
+#define CHAT_ID "Null" //3- IDBOTtan alınan id yazılacak!!!
 X509List cert(TELEGRAM_CERTIFICATE_ROOT);
 
 //telegram bota bağlantı için gerekli tanımlamaları yapmalıyız
